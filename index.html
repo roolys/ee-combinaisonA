@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entraînement à l'expression écrite</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>ENTRAINEMENT EXPRESSION ECRITE TCF Canada</h1>
+    <h4>SUJET D'ACTUALITE DE 2024</h4>
+    <h5>COMBINAISON 1</h5>
+  <div class="container">
+    <div class="text-area">
+      <h2>Tâche 1 : 
+        Vous terminez un séjour professionnel dans un pays étranger et vous souhaitez fêter votre départ. Vous écrivez un courriel à vos collègues pour les inviter au restaurant.  Decrivez votre projet et donnez leur les informations nécessaires.(date, heure, adresse, etc...) (60-120 mots)</h2>
+      <p>
+        
+      </p>
+      <textarea id="textarea1"></textarea>
+      <p class="word-count" id="wordCount1">Nombre de mots : 0</p>
+    </div>
+    <div class="text-area">
+      <h2>Tâche 2 : Vous avez commencé une nouvelle activité sportive. Sur votre blog, vous racontez votre expérience. Vous expliquez pourquoi cette activité peut être intéressante pour tout le monde. (120-150 mots) 
+    </h2>
+      <p>
+      
+      </p>
+      <textarea id="textarea2"></textarea>
+      <p class="word-count" id="wordCount2">Nombre de mots : 0</p>
+    </div>
+    <div class="text-area">
+      <h2>Tâche 3 : Les animaux de compagnie: pour ou contre. (120 mots minimum / 180 mots maximum).</h2>
+      <p>
+        – Dans la première partie, vous feriez le résumé des deux documents (entre 40 et 60 mots);
+      </p>
+      <p>
+        – Dans la deuxième partie, vous donnez votre avis sur le sujet (entre 80 et 120 mots).
+      </p>
+      <h3>Document 1 : </h3>
+      <p>
+        Venir au bureau avec son animal de compagnie,  c'est à la mode. L'intérêt de cette présence? C'est simple,  diminuer le stress des employés. La présence d'un chien ou d'un chat change l'ambiance générale d'une entreprise: elle réduit les tensions entre collègues,  ce qui n'est pas négligeable car chaque année, l'état français dépense entre 2 
+et 3 milliards d'euros pour soigner les salariés malades du stress. Selon une enquête, un quart des employés pensent aussi que la présence des animaux permet d'être plus motivé au travail.
+
+      </p>
+      <h3>Document 2 : </h3>
+      <p>
+        《Dans l'entreprise où je travaille, les employés sont autorisés à venir avec leur animal de compagnie, chat ou chien. Personnellement,  cela me dérange. Je ne suis pas très à l'aise avec les animaux qui peuvent avoir des comportements imprévisibles. D'autre part, je trouve que cela peut poser des problèmes de santé. Que faire si un employé est allergique au chat? Sera t-il obligé de rester enfermé dans son bureau? Et puis c'est aussi u e source de distraction.  Mes collègues et moi ne serons pas plus productifs grâce à un chien ou un chat》Iris 34ans
+      </p>
+      
+      <textarea id="textarea3"></textarea>
+      <p class="word-count" id="wordCount3">Nombre de mots : 0</p>
+    </div>
+    <div class="download">
+      <!-- <button id="keyboardButton">Ouvrir le clavier</button> -->
+      <button id="downloadButton" onclick="downloadContent()">Télécharger</button>
+    </div>
+    <div class="timer">
+      <p id="timer">Temps restant : 60:00</p>
+    </div>
+
+    <div class="virtual-keyboard">
+      <!-- Insérez le clavier visuel ici -->
+      <div id="keyboard">
+        <div class="key" onclick="insertCharacter('é')">é</div>
+        <div class="key" onclick="insertCharacter('è')">è</div>
+        <div class="key" onclick="insertCharacter('ê')">ê</div>
+        <div class="key" onclick="insertCharacter('ë')">ë</div>
+        <div class="key" onclick="insertCharacter('à')">à</div>
+        <div class="key" onclick="insertCharacter('â')">â</div>
+        <div class="key" onclick="insertCharacter('ä')">ä</div>
+        <div class="key" onclick="insertCharacter('î')">î</div>
+        <div class="key" onclick="insertCharacter('ï')">ï</div>
+        <div class="key" onclick="insertCharacter('ô')">ô</div>
+        <div class="key" onclick="insertCharacter('œ')">œ</div>
+        <div class="key" onclick="insertCharacter('ù')">ù</div>
+        <div class="key" onclick="insertCharacter('û')">û</div>
+        <div class="key" onclick="insertCharacter('ü')">ü</div>
+      </div>
+
+      <!-- <textarea id="textarea"></textarea> -->
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
